@@ -1,0 +1,72 @@
+h1 {
+	font-size: 35pt;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+.fade {
+	width: 420pt;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-top-left-radius: 10pt;
+	border-top-right-radius: 10pt;
+	border-bottom-left-radius: 10pt;
+	border-bottom-right-radius: 10pt;
+}
+
+div {
+	padding-top: 5pt;
+}
+
+img {
+	margin: 1pt;
+}
+
+.pic {
+	border-top-left-radius: 5pt;
+	border-top-right-radius: 5pt;
+	border-bottom-left-radius: 5pt;
+	border-bottom-right-radius: 5pt;
+}
+
+.pic:hover {
+	opacity: 0.7;
+}
+
+#img0 {
+	background-color: rgba(255, 0, 0, 0.6);
+}
+
+#img1 {
+	background-color: rgba(0, 255, 0, 0.6);
+}
+
+#img2 {
+	background-color: rgba(0, 0, 255, 0.6);
+}
+
+#img3 {
+	background-color: rgba(255, 255, 0, 0.6);
+}
+
+#img4 {
+	background-color: rgba(0, 255, 255, 0.6);
+}
+
+#img5 {
+	background-color: rgba(255, 0, 255, 0.6);
+}
+
+#img6 {
+	background-color: rgba(255, 75, 150, 0.6);
+}
+
+#img7 {
+	background-color: rgba(255, 69, 0, 0.6);
+}
+
+#img8 {
+	background-color: rgba(70, 150, 255, 0.6);
+}
