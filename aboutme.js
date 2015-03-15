@@ -110,6 +110,8 @@ function changeDiv() {
 		temp[i] = document.getElementById("img" + i);
 		temp[i].onmouseover = changeHeader;
 		temp[i].onclick = changeDiv;
+		temp[i].style.marginLeft = "2.5pt";
+		temp[i].style.marginRight = "2.5pt";
 
 		area.removeChild(document.getElementById("img" + i));
 	}
@@ -129,7 +131,6 @@ function changeDiv() {
 	back.onmouseout = function() {back.style.opacity = 1;};
 	back.onclick = function() { 
 
-		icon.height = 0;
 		area.removeChild(icon);
 		area.removeChild(paragraph);
 		area.removeChild(back);
